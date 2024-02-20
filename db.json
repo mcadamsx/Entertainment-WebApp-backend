@@ -1,4 +1,41 @@
 {
+  "users": [
+    {
+      "id": "89c0",
+      "email": "example@mail.com",
+      "password": "1234"
+    },
+    {
+      "id": "063a",
+      "email": "xyz@mail.com",
+      "password": "123"
+    },
+    {
+      "id": "e723",
+      "email": "dsdsds",
+      "password": "123"
+    },
+    {
+      "id": "2b29",
+      "email": "xyz@mail.com",
+      "password": "1234"
+    },
+    {
+      "id": "0b97",
+      "email": "jona@mail.com",
+      "password": "123"
+    },
+    {
+      "id": "7384",
+      "email": "abc@mail.com",
+      "password": "123"
+    },
+    {
+      "id": "d55b",
+      "email": "xyz@mail.com",
+      "password": "1234"
+    }
+  ],
   "movies": [
     {
       "title": "Beyond Earth",
@@ -36,7 +73,7 @@
       "year": 2021,
       "category": "Movie",
       "rating": "PG",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": true,
       "id": "3355"
     },
@@ -61,26 +98,6 @@
       "id": "8e08"
     },
     {
-      "title": "1998",
-      "thumbnail": {
-        "trending": {
-          "small": "./assets/thumbnails/1998/trending/small.jpg",
-          "large": "./assets/thumbnails/1998/trending/large.jpg"
-        },
-        "regular": {
-          "small": "./assets/thumbnails/1998/regular/small.jpg",
-          "medium": "./assets/thumbnails/1998/regular/medium.jpg",
-          "large": "./assets/thumbnails/1998/regular/large.jpg"
-        }
-      },
-      "year": 2021,
-      "category": "Movie",
-      "rating": "18+",
-      "isBookmarked": false,
-      "isTrending": true,
-      "id": "2263"
-    },
-    {
       "title": "Dark Side of the Moon",
       "thumbnail": {
         "trending": {
@@ -96,7 +113,7 @@
       "year": 2018,
       "category": "TV Series",
       "rating": "PG",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": true,
       "id": "2380"
     },
@@ -144,7 +161,7 @@
       "year": 2017,
       "category": "Movie",
       "rating": "18+",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "980a"
     },
@@ -208,7 +225,7 @@
       "year": 2017,
       "category": "Movie",
       "rating": "E",
-      "isBookmarked": false,
+      "isBookmarked": true,
       "isTrending": false,
       "id": "bd35"
     },
@@ -240,7 +257,7 @@
       "year": 2015,
       "category": "TV Series",
       "rating": "E",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "13cd"
     },
@@ -256,7 +273,7 @@
       "year": 2017,
       "category": "Movie",
       "rating": "PG",
-      "isBookmarked": false,
+      "isBookmarked": true,
       "isTrending": false,
       "id": "43c1"
     },
@@ -320,7 +337,7 @@
       "year": 2017,
       "category": "Movie",
       "rating": "18+",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "533f"
     },
@@ -400,7 +417,7 @@
       "year": 2016,
       "category": "TV Series",
       "rating": "E",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "2acd"
     },
@@ -480,29 +497,9 @@
       "year": 2017,
       "category": "Movie",
       "rating": "PG",
-      "isBookmarked": true,
+      "isBookmarked": false,
       "isTrending": false,
       "id": "1079"
-    },
-    {
-      "id": "2263",
-      "title": "1998",
-      "thumbnail": {
-        "trending": {
-          "small": "./assets/thumbnails/1998/trending/small.jpg",
-          "large": "./assets/thumbnails/1998/trending/large.jpg"
-        },
-        "regular": {
-          "small": "./assets/thumbnails/1998/regular/small.jpg",
-          "medium": "./assets/thumbnails/1998/regular/medium.jpg",
-          "large": "./assets/thumbnails/1998/regular/large.jpg"
-        }
-      },
-      "year": 2021,
-      "category": "Movie",
-      "rating": "18+",
-      "isBookmarked": true,
-      "isTrending": true
     }
   ]
 }
